@@ -79,7 +79,7 @@ function checkGameOver() {
 player1.update();
 player2.update();
 dice1.style.display = "none";
-        dice2.style.display = "none";
+dice2.style.display = "none";
 
 document.querySelector(".btn-roll").addEventListener("click", () => {
     if(!gameState.gameOver) {
